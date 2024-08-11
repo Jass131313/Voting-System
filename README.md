@@ -35,18 +35,18 @@ pip install pillow
 ```
 
 ## Setup
-### Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/online-voting-system.git
 cd online-voting-system
 ```
 
-## Configure the Database
+### 2. Configure the Database
 
 Ensure that you have a database set up for storing voter and admin information, as well as vote details. Update the settings.py file with the appropriate database connection details.
 
-## Run the Application
+### 3. Run the Application
 
 Navigate to the project directory and execute the following command to start the application:
 
@@ -56,62 +56,62 @@ python main.py
 
 ## Usage
 ### Voter Features
-#### Voter Registration
+#### 1. Voter Registration
 
 - Navigate to the registration screen.
 - Enter required details including Voter ID, Name, Age, Aadhar Number, Mobile Number, Gender, and Password.
 - Click "Register" to create a new voter account.
 
-#### Voter Login
+#### 2. Voter Login
 
 - Enter your Voter ID and Password on the login screen.
 - Click "Login" to access the voting dashboard.
 
-#### Casting a Vote
+#### 3. Casting a Vote
 
 - Select your preferred poll, district, and state from the dashboard.
 - Click "Vote" to submit your vote.
 
-#### Logging Out
+#### 4. Logging Out
 
 - Click "Log Out" to exit the application.
 
 ### Admin Features
-#### Admin Registration
+#### 1. Admin Registration
 
 - Navigate to the admin registration screen.
 - Enter required details including Admin ID, Name, and Password.
 - Click "Register" to create a new admin account.
 
-#### Admin Login
+#### 2. Admin Login
 
 - Enter your Admin ID and Password on the login screen.
 - Click "Login" to access the admin dashboard.
 
-#### Managing Voters
+#### 3. Managing Voters
 
-##### Selecting Voters
+##### a. Selecting Voters
 
 - Access the voter management section from the admin dashboard.
 - Use search functionality to find specific voter records by ID, Name, or other criteria.
 
-##### Updating Voter Records
+##### b. Updating Voter Records
 
 - Select a voter record from the list.
 - Update details such as Name, Age, Aadhar Number, Mobile Number, and Gender.
 - Save changes to update the record in the database.
 
-##### Deleting Voter Records
+##### c. Deleting Voter Records
 
 - Select a voter record from the list.
 - Click "Delete" to remove the voter record from the database.
 - Confirm the deletion to proceed.
 
-##### Searching Voters
+##### d. Searching Voters
 
 - Use the search bar in the voter management section to find voters by various attributes (e.g., ID, Name).
 
-##### Viewing Results
+##### e. Viewing Results
 
 - Navigate to the results section from the admin dashboard.
 - View aggregated results of votes, including breakdowns by poll, district, and state.
